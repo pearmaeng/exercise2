@@ -1,0 +1,138 @@
+/* CSS Document */
+
+/* Defauls */
+html {
+    font-family: sans-serif;
+    color: black;
+}
+
+body {
+    margin: 0;
+}
+
+/* Nav */
+.nav {
+    background-color: rgb(218, 73, 57);
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Nav - Logo */
+.nav .logo {
+    flex: 1;
+    text-align: left;
+    color: white;
+}
+
+.nav .logo h1 {
+    font-size: 2em;
+}
+
+/* Nav - Right */
+.nav .nav-right {
+    flex: 2;
+    text-align: right;
+    font-size: 2em;
+}
+
+.nav .nav-right ol {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.nav .nav-right ol li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav .nav-right ol li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav .nav-right ol li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Header */
+.header {
+    background-image: url(../img/header.jpeg);
+    width: 100%;
+    height: 80vh;
+}
+
+.box {
+    height: 30vh;
+    width: 30vw;
+    background-color: #ffffff80;
+    border: 5px solid white;
+    padding: 30px;
+    display: inline-block;
+    margin-left: 10vw;
+    margin-top: 20vh;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+    margin: 10px 10px;
+    gap: 10px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    border: 3px solid rgb(218, 73, 57);
+    border-radius: 5px;
+}
+
+.flex h1 {
+    background-color: rgb(218, 73, 57);
+    margin: 0;
+}
+
+.flex button {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+
+/* Main */
+.main {
+    display: flex;
+    gap: 20px;
+    margin: 40px 10px;
+}
+
+.main p {
+    font-size: 1.8em;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    background-color: black;
+}
+
+.fbox1,
+.fbox2,
+.fbox3 {
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer h1 {
+    margin: 0;
+    background-color: rgb(212, 115, 104);
+}
+
+.footer p {
+    font-size: 1.3em;
+}
